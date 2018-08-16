@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: HelveticaNeue,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body {
+    background-image: url(http://static.fanfou.com/img/bg/3.jpg);
+    background-repeat: repeat;
+    background-position: top left;
+}
+div{
+	display:block;
+}
+#container{
+	margin:0 auto;
+	width:775px;
+}
+#header{
+	float: none;
+	position: relative;
+	width: 100%;
+	padding: 1em 0;
+}
+#header p{
+	float: left;
+	width: 203px;
+	width: 244px;
+	height: 42px;
+	background: transparent url(http://static2.fanfou.com/img/fanfou_beta.png) 0 0 no-repeat;
+}
+
+#navigation{
+	float: right;
+	margin-top:7px;
+	padding:7px 15px;
+	background-color:#FFFFFF;
+	border-radius:5px;
+}
+#navigation span{
+	text-decoration: none;
+	padding:2px 7px;
+	font-size: 14px;
+}
+
+#header:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#core{
+	clear:both;
+}
+
+#main{
+	width:500px;
+	padding:20px;
+	background:#fff;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	/* clear:both;
+	 */
+}
+
+#sysnotice{
+	margin:0 0 10px;
+	padding:5px 10px;
+	background:#fffcaa;
+	/* clear: both; */
+}
+
+
+#statusUpdate{
+	margin:0 0 10px;
+	
+}
