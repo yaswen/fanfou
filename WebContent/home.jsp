@@ -41,22 +41,42 @@
 						<a>新增x条最新消息，点击查看</a>
 					</div>
 					<div id="stream">
-						<div id="fan">
+						<div class="fan">
 							<a href="/用户id" title="昵称" class="avatar">
 								<img src="http://s3.meituan.net/v1/mss_3d027b52ec5a4d589e68050845611e68/avatar/s0/01/16/6a.jpg?1449550694"  alt="昵称" />
 							</a>
-							<a href="/用户id" class="author">昵称</a>
-							<span id="消息id" class="content">消息内容</span>
-							<span class="stamp">
-								<a href="/statuses/消息id" class="time" title="消息时间" stime="消息显示时间">x分钟前</a>
-								<span class="method">消息来源</span>
-							</span><span class="op">
-								<a href="/回复链接" class="reply" title="回复昵称">回复昵称</a>
-								<a href="/收藏链接" class="post_act share" title="添加到我的收藏">收藏</a>
-								<a href="/转发链接" class="repost" title="转发">转发</a>
-							</span>
+							
+								<a href="/用户id" class="author">昵称</a>
+								<span id="消息id" class="content">消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容</span>
+								<span class="stamp">
+									<a href="/statuses/消息id" class="time" title="消息时间" stime="消息显示时间">x分钟前</a>
+									<span class="method">消息来源</span>
+								</span>
+								<span class="op">
+									<a href="/回复链接" class="reply" title="回复昵称">回复昵称</a>
+									<a href="/收藏链接" class="post_act share" title="添加到我的收藏">收藏</a>
+									<a href="/转发链接" class="repost" title="转发">转发</a>
+								</span>
+							
 						</div>
-						
+						<div class="fan">
+							<a href="/用户id" title="昵称" class="avatar">
+								<img src="http://s3.meituan.net/v1/mss_3d027b52ec5a4d589e68050845611e68/avatar/s0/01/16/6a.jpg?1449550694"  alt="昵称" />
+							</a>
+							
+								<a href="/用户id" class="author">昵称</a>
+								<span id="消息id" class="content">消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容</span>
+								<span class="stamp">
+									<a href="/statuses/消息id" class="time" title="消息时间" stime="消息显示时间">x分钟前</a>
+									<span class="method">消息来源</span>
+								</span>
+								<span class="op">
+									<a href="/回复链接" class="reply" title="回复昵称">回复昵称</a>
+									<a href="/收藏链接" class="post_act share" title="添加到我的收藏">收藏</a>
+									<a href="/转发链接" class="repost" title="转发">转发</a>
+								</span>
+							
+						</div>
 					</div>
 				</div>
 			</div>

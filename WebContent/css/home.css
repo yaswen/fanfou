@@ -15,13 +15,16 @@ body {
 div {
 	display: block;
 }
+
 h2 {
 	font-size: 16px;
 }
+
 textarea {
-    padding: 4px;
-    overflow: auto;
+	padding: 4px;
+	overflow: auto;
 }
+
 #container {
 	margin: 0 auto;
 	width: 775px;
@@ -56,20 +59,25 @@ textarea {
 	padding: 2px 7px;
 	font-size: 14px;
 }
-#navigation a{
-	text-decoration:none
+
+#navigation a {
+	text-decoration: none
 }
-#navigation a:link{
+
+#navigation a:link {
 	color: #990000;
 }
-#navigation a:visited{
+
+#navigation a:visited {
 	color: #990000;
 }
-#navigation a:hover{
+
+#navigation a:hover {
 	color: #fff;
 	background-color: #990000;
 }
-#navigation a:active{
+
+#navigation a:active {
 	
 }
 
@@ -113,13 +121,12 @@ textarea {
 	border-bottom-right-radius: 10px;
 	width: 219px;
 	/* height:auto; */
-	margin: auto; padding : 20px 0 20px 15px;
+	margin: auto;
+	padding: 20px 0 20px 15px;
 	background: #c0c0c0;
 	float: left;
 	padding: 20px 0 20px 15px;
 }
-
-
 
 .clear {
 	clear: both;
@@ -135,7 +142,8 @@ textarea {
 #statusUpdate {
 	margin: 0 0 10px;
 }
-#status{
+
+#status {
 	width: 482px;
 	height: 22px;
 	font-size: 14px;
@@ -144,16 +152,63 @@ textarea {
 	border: 1px solid #b9bcbe;
 }
 
-#timeline-notification{
-	
+#timeline-notification {
 	margin: 0 0 10px;
 	padding: 6px 12px;
 	background: #fffcaa;
 	/* clear: both; */
 }
 
-.avatar img{
+.fan {
+	font-size: 14px;
+	word-wrap: break-word;
+	padding: 9px 50px 12px 62px;
+}
+
+.fan .text {
+	display: inline;
+}
+
+.avatar img {
+	display: block;
+	float: left;
+	margin-left: -59px;
+	margin-top: 3px;
+	vertical-align: middle;
+	heght: 48px;
+	width: 48px;
+}
+
+a.author {
+	float: left;
+	color: #990000;
+	/* text-decoration:none; */
+	margin-right: 0.3em;
+}
+.stamp{
 	display:block;
-	heght:48px;
-	width:48px;
+	margin-top:3px;
+	color:#999;
+	font-size:12px;
+}
+span.op {
+	display:block;
+	right:5px;
+	/* position:absolute; */
+	top:2px;
+	visibility:hidden;
+}
+
+.fan:hover span.op {
+	visibility: visible;
+	z-index: 1;
+}
+
+.fan:after {
+	content: ".";
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
 }
