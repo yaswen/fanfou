@@ -80,7 +80,34 @@
 					</div>
 				</div>
 			</div>
-			<div id="sidebar">111</div>
+			<div id="sidebar">
+				<div id="user-top">
+					<a href="/用户id">
+						<img src="http://s3.meituan.net/v1/mss_3d027b52ec5a4d589e68050845611e68/avatar/s0/01/16/6a.jpg?1449550694"/>
+					</a>
+					<h3 id="nick-name">昵称</h3>
+				</div>
+				<div id="reminder">
+					<a href="/绑定手机链接">绑定手机！</a>
+				</div>
+				<div id="user-status">
+					<div class="usc">
+						<a href="关注的人链接"><span class="count">500</span><span class="label">我关注的人</span></a>
+					</div>
+					<div class="usc">
+						<a href="关注我人链接"><span class="count">666</span><span class="label">关注我的人</span></a>
+					</div>
+					<div class="usc">
+						<a href="/用户id"><span class="count">99901</span><span class="label">消息</span></a>
+					</div>
+				</div>
+				<div id="good-app"></div>
+				<div id="stabs"></div>
+				<div id="search"></div>
+				<div id="saved-searchs"></div>
+				<div id="friends"></div>
+				<div id="shiwen-else"></div>
+			</div>
 			<div class="clear"></div>
 		</div>
 		<div id="footer" class="ui-roundedbox"></div>

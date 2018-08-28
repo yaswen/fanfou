@@ -212,3 +212,33 @@ span.op {
 	clear: both;
 	visibility: hidden;
 }
+#user-top{
+	margin-bottom:12px;
+}
+#user-top a{
+	display:block;
+	float:left;
+	margin-right:10px;
+	height:32px;
+	width:32px;
+}
+#user-top a img{
+	height:32px;
+	width:32px;
+}
+
+#nick-name{
+	font-size:18px;
+	display:block;
+	line-height:32px;
+}
+#reminder {
+    margin-bottom: 15px;
+    margin: 10px 0;
+}
+#reminder a{
+	padding: 2px 3px 1px 8px;
+	border-bottom: 2px solid #ffed00;
+	background:#fffcaa;
+}
+
