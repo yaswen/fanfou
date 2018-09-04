@@ -101,10 +101,38 @@
 						<a href="/用户id"><span class="count">99901</span><span class="label">消息</span></a>
 					</div>
 				</div>
-				<div id="good-app"></div>
-				<div id="stabs"></div>
-				<div id="search"></div>
-				<div id="saved-searchs"></div>
+				<div id="good-app">
+					<a href="http://2012.fanfou.com">
+						<strong>饭否2012版</strong>
+						<span>饭否新版界面, 不删档公测中...</span>
+					</a>
+				</div>
+				<div id="stabs">
+					<ul>
+						<li class="current"><a href=""><span>首页</span></a></li>
+						<li><a href=""><span>提到我的</span></a></li>
+						<li><a href=""><span>私信</span></a></li>
+						<li><a href=""><span>收藏</span></a></li>
+						<li><a href=""><span>照片</span></a></li>
+					</ul>
+				</div>
+				<div id="search">
+					<form action="//fanfou.com/search" id="search-form">
+						<input type="text" name="q" id="search-input"/>
+						<input type="submit" id="search-submit" value="搜索"/>
+						
+					</form>
+				</div>
+				<div id="saved-searchs">
+					<h2>关注的话题</h2>
+					<ul>
+						<li><a href="/q/话题一"><span>话题一</span></a></li>
+						<li><a href="/q/话题二"><span>话题二</span></a></li>
+						<li><a href="/q/话题三"><span>话题三</span></a></li>
+						<li><a href="/q/话题四"><span>话题四</span></a></li>
+						<li><a href="/q/话题五"><span>话题五</span></a></li>
+					</ul>
+				</div>
 				<div id="friends"></div>
 				<div id="shiwen-else"></div>
 			</div>
@@ -113,7 +141,7 @@
 		<div id="footer" class="ui-roundedbox"></div>
 	</div>
 	<script type="text/javascript">
-		//判断控制页面初始时左右的高度一致 
+		//判断控制页面初始时左右的高度一致
 		//载入页面结束以后，将sidebar高度与主页高度设为一致
 
 		var hl = $("#main").outerHeight(); //获取左侧left层的高度 
