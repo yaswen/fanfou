@@ -57,6 +57,7 @@ public class Oauth {
 			// e.printStackTrace();
 		}
 	}
+	
 	String oauth_request_method = "GET";//获取request_token采用GET方式
 	String requst_token_url =Fanfou.requst_token_url;// 获取request_token的url
 	String oauth_callback =Fanfou.oauth_callback;//第三步获取access_token的时候的callback服务
@@ -143,13 +144,13 @@ public class Oauth {
 	 * @param status 要发的消息
 	 * @return
 	 */
+	
 	/**
 	 * 将参数排序并且连接成key1=value1&key2=value2的形式
 	 * @param tmp 包含所有参数键值对的TreeMap
 	 * @return 返回按key排序并且写成key1=value1&key2=value2格式的字符串
 	 */
 	public static String getDict(TreeMap<String,String> tmp) {
-
 		System.out.println(tmp);
 		String t="";
 		Iterator titer=tmp.entrySet().iterator();  
